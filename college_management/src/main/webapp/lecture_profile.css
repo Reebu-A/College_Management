@@ -1,0 +1,108 @@
+@charset "ISO-8859-1";
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(68, 66, 66, 0.5),rgba(121, 125, 128, 0.5)), url(img/19245711_6101073.jpg) ;
+    background-size: 1380px 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+.navbar
+{
+    height: 80px;
+    /* background-image: linear-gradient(rgb(54, 86, 190),rgb(39, 37, 37)); */
+    background-color: rgb(132, 133, 134);
+    opacity: .9;
+}
+.navbar i
+{
+color: #332e2e;
+font-size: 29px;
+transform: translate(83px,-3px);
+
+}
+.registu
+{
+    font-size: 17px;
+    color: rgb(134, 32, 17);
+    font-family: "Times New Roman", Times, serif;
+    transform: translate(55px,4px);
+}
+.navbar b
+{
+    font-size: 25px;
+    color: rgb(19, 27, 49);
+    font-family: "Times New Roman", Times, serif;
+    transform: translate(60px,-10px);
+}
+.navbar h5
+{
+    font-size: 15px;
+    color: rgb(23, 54, 134);
+    font-family: "Times New Roman", Times, serif;
+    transform: translate(-54px,20px);
+}
+.navbar img
+{
+  position: relative;
+  top: -1px;
+    height: 100%;
+    
+}.navbar h6
+{
+  height: 10px;
+  transform: translate(-20px,-10px);
+}
+.leftdiv
+{
+    width: 30%;
+    height: 60%;
+    transform: translate(500px, 60px);
+    background-image: linear-gradient(rgb(124, 136, 151),rgb(84, 86, 87));
+    opacity: .97;
+    
+}
+.heading
+{
+    margin: auto;
+    width: 80%;
+    height: 10%;
+    text-align: center;
+    color: rgb(19, 27, 49);
+    font-family: "Times New Roman", Times, serif;
+    transform: translate(0,30%);
+}
+.ldetails
+{
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    color: rgb(13, 13, 14);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: 530;
+    /* background-color: azure; */
+    transform: translate(8%,10%);
+
+}
+.bottomdiv
+{
+    width: 45%;
+    height: 13%;
+    transform: translate(380px, 80px);
+    /* background-image: linear-gradient(rgb(25, 110, 212),rgb(84, 86, 87)); */
+    opacity: .97;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}

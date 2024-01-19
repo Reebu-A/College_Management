@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>lecture_registration</title>
+<link rel="stylesheet" href="lecture_registration.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+<div class="main">
+        <nav class="navbar">
+            <img src="img/logo-final.png" alt="">
+            <h6 style="padding:30px; color:#3034a8; text-align:left;">KOZHUVALLOOR POST - CHENGANNUR, ALAPPUZHA DIST<br>Tel: 0479-2369993, 2369994 | Email: info@stcet.net </h6>
+          </nav>
+
+        <div class="formbox">
+            <div class="login_heading">
+                <h3>Lecture Registration</h3>
+            </div>
+            <div class="logform">
+
+                <form action="Lecture_registration" method="post" class="a">
+                    <label for="name"><b>Name</b> </label>
+                    <input type="text" placeholder="Enter Name" name="name" id="name" required><br>
+                    <label for="phone"><b>Phone No:</b> </label>
+                    <input type="text" placeholder="Enter Mobile No:" id="phone" name="phn"> <br>
+                    <label for="email"><b>Email</b> </label>
+                    <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
+                   
+                    <label for="dep"><b>Choose Department:</b></label>
+                        <select id="dep" name="dep" required>
+                            <option value="">--</option>
+                            <option value="ECE">ECE</option>
+                            <option value="CSE">CSE</option>
+                            <option value="ME">ME</option>
+                            <option value="CE">CE</option> 
+                        </select> <br>
+                    <label for="gender"><b>Gender :</b></label>
+                    <label for="male"><b>Male</b></label>
+                    <input type="radio" id="male" name="gender" value="Male" required>
+                    <label for="female"><b>Female</b></label>
+                    <input type="radio" id="female" name="gender" value="Female" required><br>
+                    <label for="dob"><b>D.O.B : </b></label>
+                    <input type="date" id="dob" name="dob" required> <br>
+                    <label for="psw"><b>New Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                    <button type="submit" class="registerbtn">Register</button>
+
+                </form>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+</html>

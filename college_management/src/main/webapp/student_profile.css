@@ -1,0 +1,98 @@
+@charset "ISO-8859-1";
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(68, 66, 66, 0.5),rgba(121, 125, 128, 0.5)), url(img/5562410_21429.jpg) ;
+    background-size: 1380px 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+.navbar
+{
+    height: 80px;
+    /* background-image: linear-gradient(rgb(54, 86, 190),rgb(39, 37, 37)); */
+    background-color: rgb(132, 133, 134);
+    opacity: .9;
+}
+.navbar i
+{
+color: #332e2e;
+font-size: 26px;
+transform: translate(129px,-3px);
+
+}
+.navbar b
+{
+    font-size: 20px;
+    color: rgb(19, 27, 49);
+    font-family: "Times New Roman", Times, serif;
+    transform: translate(100px,-10px);
+}
+.navbar h5
+{
+    font-size: 16px;
+    color: rgb(23, 54, 134);
+    font-family: "Times New Roman", Times, serif;
+    transform: translate(-77px,20px);
+}
+.navbar img
+{
+  position: relative;
+  top: -1px;
+    height: 100%;
+    
+}.navbar h6
+{
+  height: 10px;
+  transform: translate(-20px,-10px);
+}
+.leftdiv
+{
+    width: 30%;
+    height: 60%;
+    transform: translate(150px, 80px);
+    background-image: linear-gradient(rgb(124, 136, 151),rgb(84, 86, 87));
+    opacity: .97;
+    
+}
+.heading
+{
+    margin: auto;
+    width: 80%;
+    height: 10%;
+    text-align: center;
+    color: rgb(19, 27, 49);
+    font-family: "Times New Roman", Times, serif;
+    transform: translate(0,30%);
+}
+.ldetails
+{
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    color: rgb(13, 13, 14);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: 530;
+    /* background-color: azure; */
+    transform: translate(8%,10%);
+
+}
+.rightdiv
+{
+    width: 30%;
+    height: 60%;
+    transform: translate(750px, -280px);
+    background-image: linear-gradient(rgb(124, 136, 151),rgb(84, 86, 87));
+    opacity: .97;
+    
+
+}
